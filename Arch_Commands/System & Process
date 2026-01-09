@@ -1,0 +1,10 @@
+top                 # system monitor
+htop                # better monitor
+btop                # modern monitor (popular on Arch)
+ps aux              # running processes
+kill PID            # kill process
+df -h               # disk usage
+free -h             # RAM usage
+uptime              # system running time
+systemctl status    # service status
+journalctl -xe      # view system logs

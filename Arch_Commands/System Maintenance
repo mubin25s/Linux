@@ -1,0 +1,5 @@
+reflector --latest 5 --sort rate --save /etc/pacman.d/mirrorlist # update mirrors
+sudo pacman -Rns $(pacman -Qdtq) # remove orphaned packages
+paccache -r                # clean old package versions
+timedatectl set-ntp true   # sync system time
+hostnamectl set-hostname name # change hostname

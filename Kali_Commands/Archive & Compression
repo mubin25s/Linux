@@ -1,0 +1,5 @@
+tar -cvf file.tar folder
+tar -xvf file.tar
+
+zip file.zip file.txt
+unzip file.zip

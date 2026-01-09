@@ -1,0 +1,9 @@
+sudo pacman -Sy            # update package database
+sudo pacman -Syu           # update database & upgrade system
+sudo pacman -S package     # install package
+sudo pacman -R package     # remove package
+sudo pacman -Rs package    # remove package + dependencies
+sudo pacman -Q             # list installed packages
+sudo pacman -Ss keyword    # search for package
+sudo pacman -Qi package    # show package info
+sudo pacman -Sc            # clean package cache

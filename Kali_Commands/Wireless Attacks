@@ -1,0 +1,6 @@
+iwconfig                      # view wireless interfaces
+airmon-ng start wlan0         # enable monitor mode
+airodump-ng wlan0mon          # capture packets
+aireplay-ng                   # packet injection
+aircrack-ng                   # crack WPA/WEP keys
+reaver -i interface -b bssid  # WPS pin attack

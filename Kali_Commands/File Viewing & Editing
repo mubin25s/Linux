@@ -1,0 +1,8 @@
+cat file.txt      # show file content
+less file.txt     # view large file
+head file.txt     # first 10 lines
+tail file.txt     # last 10 lines
+tail -f log.txt   # live log view
+
+nano file.txt     # edit file (beginner-friendly)
+vim file.txt      # edit file (advanced)

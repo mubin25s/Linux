@@ -1,0 +1,8 @@
+sudo apt update               # update package list
+sudo apt upgrade              # upgrade packages
+sudo apt install git          # install package
+sudo apt remove git           # remove package
+sudo apt autoremove           # clean unused packages
+sudo apt search package       # search for package
+sudo apt show package         # show package details
+sudo apt full-upgrade         # Kali recommended upgrade

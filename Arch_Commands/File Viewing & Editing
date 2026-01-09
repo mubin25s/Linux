@@ -1,0 +1,10 @@
+cat file.txt      # show file content
+less file.txt     # view large file
+head file.txt     # first 10 lines
+tail file.txt     # last 10 lines
+tail -f log.txt   # live log view
+
+# Arch users often prefer vim/neovim
+vim file.txt      # edit file (vim)
+nvim file.txt     # edit file (neovim)
+nano file.txt     # edit file (beginner)

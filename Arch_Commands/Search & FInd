@@ -1,0 +1,4 @@
+find . -name "*.js"     # find files
+grep "word" file.txt   # search text in file
+grep -r "word" .       # recursive search
+locate filename        # find file (requires mlocate)

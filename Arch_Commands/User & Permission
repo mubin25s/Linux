@@ -1,0 +1,8 @@
+whoami              # current user
+sudo command        # run as admin (if installed)
+chmod 755 file.sh   # change permissions
+chmod +x file.sh    # make executable
+chown user file     # change owner
+passwd              # change password
+useradd -m user     # add user with home dir
+usermod -aG wheel user # add user to wheel (sudoers) group

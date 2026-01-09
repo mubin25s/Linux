@@ -1,0 +1,13 @@
+# Using Yay (popular AUR helper)
+yay -S package             # install from AUR
+yay -Syu                   # upgrade system + AUR
+yay -Ss keyword            # search including AUR
+
+# Using Paru (modern helper)
+paru -S package            # install from AUR
+paru -Syu                  # upgrade all
+
+# Manual AUR install
+git clone aur_url
+cd directory
+makepkg -si                # build and install

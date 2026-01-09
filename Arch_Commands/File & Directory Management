@@ -1,0 +1,20 @@
+ls                # list files
+ls -l             # detailed list
+ls -a             # include hidden files
+
+pwd               # show current directory
+cd folder_name    # change directory
+cd ..             # go back one level
+cd ~              # go to home directory
+
+mkdir test        # create directory
+rmdir test        # delete empty directory
+
+touch file.txt    # create empty file
+cp a.txt b.txt    # copy file
+cp -r dir1 dir2   # copy directory
+
+mv a.txt b.txt    # rename/move file
+rm file.txt       # delete file
+rm -r folder      # delete folder
+rm -rf folder     # force delete (⚠ dangerous)

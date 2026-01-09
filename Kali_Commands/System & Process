@@ -1,0 +1,9 @@
+top                 # system monitor
+htop                # better monitor (if installed)
+ps aux              # running processes
+kill PID            # kill process
+df -h               # disk usage
+free -h             # RAM usage
+uptime              # system running time
+lscpu               # CPU info
+lsblk               # block devices

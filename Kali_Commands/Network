@@ -1,0 +1,6 @@
+ip a                # IP address
+ping google.com     # test connection
+wget url            # download file
+curl url            # fetch data
+nmcli dev wifi      # list wifi networks
+ifconfig            # (legacy) network interfaces

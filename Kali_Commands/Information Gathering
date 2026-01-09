@@ -1,0 +1,6 @@
+nmap -v -A target_ip          # network scan
+netdiscover -r range          # discover hosts
+fping -asg range              # ping sweep
+theHarvester -d domain -b all # gather emails/subdomains
+dnsenum domain                # DNS enumeration
+whois domain                  # whois info

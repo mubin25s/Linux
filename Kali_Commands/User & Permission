@@ -1,0 +1,8 @@
+whoami              # current user
+sudo command        # run as admin
+chmod 755 file.sh   # change permissions
+chmod +x file.sh    # make executable
+chown user file     # change owner
+passwd              # change password
+useradd username    # add new user
+usermod -aG sudo user # add user to sudo group
