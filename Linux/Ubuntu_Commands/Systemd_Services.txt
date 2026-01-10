@@ -1,0 +1,12 @@
+# Systemd Service Management (systemctl)
+
+- systemctl start [service]: Start a service immediately
+- systemctl stop [service]: Stop a service immediately
+- systemctl restart [service]: Restart a service
+- systemctl reload [service]: Reload configuration without restarting
+- systemctl status [service]: Check the status of a service
+- systemctl enable [service]: Enable a service to start on boot
+- systemctl disable [service]: Disable a service from starting on boot
+- systemctl is-active [service]: Check if a service is running
+- systemctl list-units --type=service: List all active services
+- systemctl daemon-reload: Reload systemd manager configuration

@@ -1,0 +1,12 @@
+# Logs & Troubleshooting
+
+- journalctl: Query and display the systemd journal
+- journalctl -u [service]: Show logs for a specific service
+- journalctl -f: Follow the log output (live view)
+- journalctl -b: Show logs from the current boot only
+- dmesg: Print or control the kernel ring buffer (boot messages)
+- tail -f /var/log/syslog: View the end of the system log file continuously
+- less /var/log/auth.log: View authentication logs (login attempts, sudo usage)
+- last: Show a listing of last logged in users
+- history: Show command history
+- top / htop: Monitor system processes and resource usage

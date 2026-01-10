@@ -1,0 +1,12 @@
+# Ubuntu Firewall (UFW)
+
+- sudo ufw enable: Enable the Uncomplicated Firewall
+- sudo ufw disable: Disable the firewall
+- sudo ufw status: Check the status of the firewall
+- sudo ufw status verbose: Check detailed status
+- sudo ufw allow [port]: Allow traffic on a specific port (e.g., ufw allow 22)
+- sudo ufw allow [service]: Allow traffic for a service (e.g., ufw allow ssh)
+- sudo ufw deny [port]: Deny traffic on a specific port
+- sudo ufw delete allow [port]: Delete a specific rule
+- sudo ufw reload: Reload firewall rules
+- sudo ufw reset: Reset UFW to default settings (all incoming blocked, outgoing allowed)

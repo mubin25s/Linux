@@ -1,0 +1,12 @@
+# Disk Maintenance & Filesystems
+
+- lsblk: List information about all available block devices
+- fdisk -l: List partition tables
+- du -sh [directory]: Display disk usage of a directory (human-readable)
+- df -h: Display free disk space (human-readable)
+- mount /dev/[device] [mountpoint]: Mount a filesystem
+- umount [mountpoint]: Unmount a filesystem
+- mkfs.ext4 /dev/[device]: Format a partition to ext4 filesystem (Danger!)
+- fsck /dev/[device]: Check and repair a Linux filesystem
+- blkid: Locate/print block device attributes (UUIDs)
+- sync: Flush file system buffers to disk

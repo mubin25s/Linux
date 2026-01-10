@@ -1,0 +1,11 @@
+# Snap Package Management
+
+- snap find [query]: Find packages to install
+- snap install [package]: Install a snap package
+- snap remove [package]: Remove a snap package
+- snap list: List installed snap packages
+- snap refresh [package]: Update a specific package
+- snap refresh: Update all installed packages
+- snap info [package]: Show detailed information about a package
+- snap revert [package]: Revert a package to the previous version
+- snap switch --channel=[channel] [package]: Switch to a different channel (e.g., beta, edge)
