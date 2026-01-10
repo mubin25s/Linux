@@ -1,0 +1,6 @@
+# Social Engineering Tools
+
+- setoolkit: The Social-Engineer Toolkit (Spear-Phishing, Website Vectors)
+- msfvenom -p [payload] LHOST=[ip] LPORT=[port] -f [format]: Create malicious payloads
+- evilginx2: Phishing framework for capturing login credentials and session cookies
+- swaks: Swiss Army Knife for SMTP (Email testing/spoofing)

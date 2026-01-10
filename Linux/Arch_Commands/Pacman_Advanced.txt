@@ -1,0 +1,10 @@
+# Advanced Pacman Maintenance
+
+- pacman -Rns [package]: Remove a package, its dependencies (not needed by others), and config files
+- pacman -Qdt: List orphaned packages (installed as dependencies but no longer needed)
+- pacman -Rns $(pacman -Qdtq): Remove all orphaned packages recursively
+- pacman -Sc: Clean the package cache (remove uninstalled packages)
+- pacman -Scc: Clean entire package cache (use with caution)
+- pacman -U [path_to_package.pkg.tar.zst]: Install a local package file
+- paccache -r: Keep only the latest 3 versions of packages (requires pacman-contrib)
+- rm /var/lib/pacman/db.lck: Remove lock file (only if pacman crashed)

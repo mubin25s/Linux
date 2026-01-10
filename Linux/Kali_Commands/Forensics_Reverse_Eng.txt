@@ -1,0 +1,9 @@
+# Digital Forensics & Reverse Engineering
+
+- binwalk [file]: Analyze, reverse engineer, and extract firmware images
+- autopsy: Graphical interface to The Sleuth Kit (digital investigation)
+- volatility -f [memory_dump] imageinfo: Memory forensics framework
+- strings [file]: Print the sequences of printable characters in a file
+- radare2 [file]: Advanced command-line hex editor and debugger
+- steghide extract -sf [file]: Extract hidden data from image/audio files
+- pdfid [file.pdf]: Scan PDF for malicious content
