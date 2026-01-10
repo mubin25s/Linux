@@ -1,0 +1,9 @@
+# Arch Disk & Partitioning
+
+- cfdisk [device]: Curses-based partition editor (user-friendly)
+- fdisk [device]: Manipulate disk partition table
+- lsblk -f: List block devices and their filesystems
+- mkfs.ext4 /dev/[partition]: Format a partition to ext4
+- mkfs.fat -F32 /dev/[partition]: Format EFI partition
+- genfstab -U /mnt >> /mnt/etc/fstab: Generate fstab file (during install)
+- arch-chroot /mnt: Change root into the new system (during install/repair)

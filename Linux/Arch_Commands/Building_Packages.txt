@@ -1,0 +1,8 @@
+# Arch Build System (ABS) & Makepkg
+
+- makepkg: Build a package from a PKGBUILD file in the current directory
+- makepkg -si: Build the package and install dependencies (-s) then install the package (-i)
+- makepkg -src: Clean up source files after build
+- updpkgsums: Update checksums in PKGBUILD
+- namcap [package.pkg.tar.zst]: Check binary packages and PKGBUILDs for common errors
+- asp checkout [package_name]: Retrieve the source PKGBUILD for an official package
