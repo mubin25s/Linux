@@ -5,4 +5,3 @@ kill PID            # kill process
 df -h               # disk usage
 free -h             # RAM usage
 uptime              # system running time
-sour
